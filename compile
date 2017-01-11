@@ -8,7 +8,7 @@ compile_state=$?
 git add .
 
 
-if [$compile_state -ne 0];
+if [  $compile_state -ne 0 ];
 then echo "failed";
      git stash;
 
